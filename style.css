@@ -144,18 +144,18 @@ nav li a {
 }
 /* popular tour section style */
 
-.popular-tour-section {
+.primary-section {
   width: 1170px;
   display: flex;
   gap: 50px;
   margin: 0px auto;
 }
-.popular-tour-title {
+.primary-title {
   color: #131318;
   font-size: 40px;
   font-weight: 800;
 }
-.popular-tour-description {
+.primary-description {
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
   font-weight: 400;
@@ -222,7 +222,6 @@ nav li a {
   gap: 24px;
 }
 .second-card-row {
-
   margin: 24px 430px;
 }
 .card {
@@ -245,6 +244,53 @@ nav li a {
   font-weight: 400;
   line-height: 26px;
 }
+
+/* deals-discounts-content style */
+.deals-discounts-section {
+  padding: 24px;
+  gap: 24px;
+}
+.deals-discounts-content {
+  width: 600px;
+  text-align: center;
+  margin: 0px auto;
+}
+.deals-discounts-banner {
+  margin-left: 100px;
+  padding: 24px;
+}
+.btn-primary-banner {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  width: 210px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  margin-left: 500px;
+}
+.form-input{
+    gap: 16px;
+}
+form {
+  justify-content: baseline;
+  gap: 16px;
+}
+.input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+  
+    color: rgba(19, 19, 24, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    
+}
+
 /* responsive media queries */
 
 /* responsive for mobile devices */
@@ -287,11 +333,93 @@ nav li a {
     margin: 0 auto;
   }
 
-  .popular-tour-section{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
+  .popular-tour-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .popular-tour-title {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .popular-tour-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 335px;
+  }
+  .popular-tour-img {
+    width: 200px;
+    /* height: 342px; */
   }
 }
+
+.banner-image {
+  background: url("./images/Group39.png");
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  margin: 60px auto;
+  padding: 50px;
+  background-repeat: no-repeat;
+}
+.banner-image-two {
+  background: url("./images/Group40.png");
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  margin: 60px auto;
+  padding: 50px;
+  background-repeat: no-repeat;
+}
+.banner-image-two .banenr-card {
+  width: 500px;
+  height: 340px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  margin-left: -0%;
+  margin-top: 40px;
+}
+.banenr-card {
+  width: 500px;
+  height: 340px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  margin-left: 50%;
+  margin-top: 40px;
+}
+.time {
+  display: flex;
+  gap: 10px;
+  margin-left: 40px;
+}
+.time p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+.time p i {
+  color: rgba(255, 84, 0, 1);
+}
+
+.banenr-card-content {
+  margin-left: 40px;
+}
+.banner-card-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.banner-card-price {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0 20px;
