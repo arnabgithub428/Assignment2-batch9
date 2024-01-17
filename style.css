@@ -63,7 +63,7 @@ nav li a {
 /* banner section style */
 
 .banner-section {
-  background: url("../images/banner.png");
+  background: url('./images/banner.png');
   width: 1170px;
   height: 500px;
   border-radius: 16px;
