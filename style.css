@@ -212,7 +212,7 @@ nav li a {
   margin-top: 10px;
 }
 .Destination-imgs {
-  margin: 0 auto;
+  margin: 0 200px;
   /* display: block; */
 }
 /* Why Choose Us style */
@@ -271,24 +271,49 @@ nav li a {
   border: none;
   margin-left: 500px;
 }
-.form-input{
-    gap: 16px;
+.form-input {
+  gap: 16px;
 }
 form {
   justify-content: baseline;
   gap: 16px;
 }
-.input{
-    width: 393px;
-    height: 52px;
-    border-radius: 8px;
-    background: rgba(19, 19, 24, 0.05);
-  
-    color: rgba(19, 19, 24, 0.3);
-    font-size: 16px;
-    font-weight: 400;
-    border: none;
-    
+.input {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+}
+
+/* footer section */
+
+.my-footer {
+    gap: 10px;
+  width: 1440px;
+  height: 502px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 0 auto;
+  display: grid;
+}
+.my-footer p{
+    margin-top: 24px;
+    text-align: center;
+    /* width: 769px; */
+}
+
+.footer-logo{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 70px 550px;
+}
+.icon{
+    text-align: center;
 }
 
 /* responsive media queries */
