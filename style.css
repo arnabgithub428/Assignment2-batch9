@@ -63,16 +63,12 @@ nav li a {
 /* banner section style */
 
 .banner-section {
-  background: url('./images/banner.png');
+  background: url("./images/banner.png");
   width: 1170px;
   height: 500px;
   border-radius: 16px;
   margin: 60px auto;
-  /* background: linear-gradient(
-    180deg,
-    rgba(19, 19, 24, 0.8) 0%,
-    rgba(19, 19, 24, 0) 100%
-  ); */
+  
 }
 .banner-content {
   text-align: center;
